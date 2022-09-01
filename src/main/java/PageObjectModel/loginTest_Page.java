@@ -44,9 +44,9 @@ public class loginTest_Page extends AbstractClass{
     public void acceptCokiesBtn(){clickFunction(acceptCocikes);}
     public void clickLoginButton(){clickFunction(loginBtn);}
     public void sendEmail(){
-        sendKeysFunction(email,"rezzaxter.murat@gmail.com");
+        sendKeysFunction(email,"testmail");
     }
     public void clickLogin2Button(){clickFunction(loginBtn2);}
-    public void sendPassword(){sendKeysFunction(passwordField,"murat5462226062");}
+    public void sendPassword(){sendKeysFunction(passwordField,"testpassword");}
     public void showUsername(){System.out.println("Username: "+showUsernameFunction(myAcc,userName));}
 }
