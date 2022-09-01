@@ -36,6 +36,7 @@ public class loginTest {
     @Given("^click loginTwo button$")
     public void click_loginTwo_button() throws Throwable {
         System.out.println("Atlandı.");
+        System.out.println("Atlandı. 2");
     }
 
     @Given("^type password$")
